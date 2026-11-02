@@ -1,0 +1,10 @@
+// Prototype for fir_filter_asm_sc.asm and fir_filter_sc.c: 
+// FIR filter module in assembly and in C with adjustable shifter for the the output sample y(n),
+// Note : x_n is current input sample x(n) of the FIR filter, while
+// y(n), the output sample of the FIR filter, is the return value of the function
+// FIR_delays[0] = x_n is carried out inside function, shft=15 is the default shift value
+short FIR_filter_sc(	short FIR_delays[],			// delay array
+						short FIR_coe[],			// coefficients
+						short int Ndelays,			// number of coeffs / delays
+						short x_n,					// current input sample
+						short shft); 				// use shft=15 as default parameter
