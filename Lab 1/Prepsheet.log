@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  3 NOV 2026 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,25 +298,25 @@ Package pdftex.def Info: ESP1_3,1.png  used on input line 154.
 <ESP1_3,2.png, id=26, 1186.93437pt x 647.41875pt>
 File: ESP1_3,2.png Graphic file (type png)
 <use ESP1_3,2.png>
-Package pdftex.def Info: ESP1_3,2.png  used on input line 205.
+Package pdftex.def Info: ESP1_3,2.png  used on input line 204.
 (pdftex.def)             Requested size: 483.69687pt x 263.83316pt.
  Excluding 'comment' comment. [4 <./ESP1_3,2.png>]
 <ESP1_3,3.png, id=32, 1195.96812pt x 679.53876pt>
 File: ESP1_3,3.png Graphic file (type png)
 <use ESP1_3,3.png>
-Package pdftex.def Info: ESP1_3,3.png  used on input line 266.
+Package pdftex.def Info: ESP1_3,3.png  used on input line 265.
 (pdftex.def)             Requested size: 483.69687pt x 274.83841pt.
 
 [5 <./ESP1_3,3.png>] [6]
 <ESP1_3,4_filter.png, id=42, 1036.37187pt x 541.02126pt>
 File: ESP1_3,4_filter.png Graphic file (type png)
 <use ESP1_3,4_filter.png>
-Package pdftex.def Info: ESP1_3,4_filter.png  used on input line 352.
+Package pdftex.def Info: ESP1_3,4_filter.png  used on input line 351.
 (pdftex.def)             Requested size: 483.69687pt x 252.50513pt.
 <ESP1_3,4.png, id=43, 1043.9pt x 542.025pt>
 File: ESP1_3,4.png Graphic file (type png)
 <use ESP1_3,4.png>
-Package pdftex.def Info: ESP1_3,4.png  used on input line 360.
+Package pdftex.def Info: ESP1_3,4.png  used on input line 359.
 (pdftex.def)             Requested size: 483.69687pt x 251.15405pt.
  [7 <./ESP1_3,4_filter.png> <./ESP1_3,4.png>]
 (C:\Users\tuong\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -327,7 +327,7 @@ File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 [8] [9] [10] [11]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 626.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 625.
  [12] (Prepsheet.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -337,11 +337,11 @@ L3 programming layer <2025-12-24>
 Here is how much of TeX's memory you used:
  5712 strings out of 467871
  81713 string characters out of 5418375
- 1418889 words of memory out of 5000000
+ 1418746 words of memory out of 5000000
  34555 multiletter control sequences out of 15000+600000
  635695 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,684b,1815s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,684b,1817s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\tuong\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/tuong/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/tuong/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -360,7 +360,7 @@ blic/amsfonts/cm/cmsy8.pfb><C:/Users/tuong/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/tuong/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/tuong/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Prepsheet.pdf (12 pages, 1123964 bytes).
+Output written on Prepsheet.pdf (12 pages, 1124106 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

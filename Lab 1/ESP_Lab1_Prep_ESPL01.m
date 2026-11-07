@@ -22,7 +22,7 @@ fs_low = fs/M;      % low sampling frequency f_s' = 16.667 kHz
 
 % identical spectrogram settings for all plots -> figures are comparable
 Nwin  = 1024;       % window length (Hamming)
-Nover = 768;        % overlap (75 %)
+Nover = 762;        % overlap (75 %)
 Nfft  = 1024;       % FFT length
 
 % section for the stem plots: n = n1 ... n2 (60 samples, far from the start)

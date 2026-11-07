@@ -86,7 +86,7 @@
 		result is correct, using concrete frequencies. Extend \texttt{dec\_int\_standalone.c}
 		to $M = L = 3$ and explain why \texttt{g\_PolyWUpdate} is necessary. Explain every
 		non-trivial step so that I can explain the code in the lab.''
-		\item "Create a Latex-textfile of the Word-Prepsheet-Template with Listing for Matlab code"
+		\item ``Create a LaTeX text file of the Word prep sheet template with listings for the MATLAB code.''
 	\end{enumerate}
 	
 	
@@ -161,8 +161,7 @@
 	
 	\noindent\textbf{Explanation:} The chirp is generated on the time axis $t = n/f_s$ with \texttt{chirp(t, f0, T, f1)} (Listing~\ref{lst:m31}). The spectrogram in Fig.~\ref{fig:esp131} shows exactly this: a single straight line from 18\,kHz to 21\,kHz over 2.5\,s. %The background is not perfectly clean because each spectrogram segment is only a short window cut out of the signal. 
 	This limitation in time spreads a small part of the signal energy over all frequencies (spectral leakage), far below the chirp itself. At n = 2000 the chirp frequency is about 18 kHz. With $f_s$ = 50 kHz there are fewer than three samples per period (50/18 $\approx$ 2.78), so the oscillation of the chirp cannot easily be recognised by the human eye. Instead, a low-frequency sine-like pattern is visible: every third sample lies on a slowly varying curve, because three samples correspond to slightly more than one full period of the chirp.
-	
-	
+		
 	% ------------------------------------------------------------------
 	\subsection{Downsampling and Polyphase Representation}
 	
@@ -364,7 +363,7 @@ so $x_1$ is shifted by about $130^\circ$ and $x_2$ by about $260^\circ$ relative
 	
 	\noindent\textbf{Explanation.} The interpolation filter is a low-pass filter with $f_{pass} = 7.33$\,kHz and $f_{stop} = f_s/(2L) = 8.33$\,kHz. It keeps the baseband chirp (1.33\,kHz $\rightarrow$ 4.33\,kHz) and suppresses both images (15.33\,kHz $\rightarrow$ 12.33\,kHz and 18\,kHz $\rightarrow$ 21\,kHz). The images are still faintly visible because a real FIR filter of finite order does not attenuate them completely: the design specification $\delta_{stop} = 0.001$ corresponds to 60\,dB, which matches the distance between the chirp and the remaining images in the spectrogram.
 	
-	Compared to 3.3, the zeros in the time signal have been filled. Each output sample of the FIR filter is a weighted sum of the last 168 input samples, which always contain non-zero values, so the filter interpolates the missing samples. In the frequency domain, only the baseband component remains, and a single sinusoid is non-zero at every sample. The stem plot therefore shows a smooth sine wave of about 1.33\,kHz. Its amplitude is 1 again, because the filter has the gain $L = 3$ that compensates the factor $1/L$ caused by zero insertion. 
+	Compared to 3.3, the zeros in the time signal have been filled.  In the frequency domain, only the baseband component remains, and a single sinusoid is non-zero at every sample. The stem plot therefore shows a smooth sine wave of about 1.33\,kHz. Its amplitude is 1 again, because the filter has the gain $L = 3$ that compensates the factor $1/L$ caused by zero insertion. 
 	
 	\subsection{Export Filter Coefficients to C}
 	
@@ -456,7 +455,7 @@ so $x_1$ is shifted by about $130^\circ$ and $x_2$ by about $260^\circ$ relative
 	
 	
 	\begin{lstlisting}[style=matlab, caption={MATLAB command window output, Section 3.5}, label={lst:out35}]
-		3.5: header interp_filter_L3.h written
+	3.5: header interp_filter_L3.h written
 		number of coefficients: 168
 		largest  value:  29572  (0.9025)
 		smallest value:  -6636  (-0.2025)
@@ -477,8 +476,8 @@ so $x_1$ is shifted by about $130^\circ$ and $x_2$ by about $260^\circ$ relative
 	
 	\medskip
 	\newpage
-	\begin{lstlisting}[style=ccode, caption={C code for $M = L = 3$ in the DSP program (DAC CH0: $\lambda = 0$, CH1: $\lambda = 2$), Section 3.6}, label={lst:c36}]
-		// main_adda_simple_Lab.c (Appendix A.2, "Getting Started with UniDAQ2"):
+\begin{lstlisting}[style=ccode, caption={Extended \texttt{dec\_int\_standalone.c} for $M = L = 3$ (CH0: $\lambda = 0$, CH1: $\lambda = 2$), Section 3.6}, label={lst:c36}]
+
 #include <stdio.h>
 
 #define M 3    // downsampling factor

@@ -1,6 +1,6 @@
 //------------------------------------------- 
 // designed with -- ESP_Lab1_Prep_ESPL01.m -- 
-// 31-Oct-2026
+// 02-Nov-2026
 // interpolation filter, L = 3, gain = L
 // Fs = 50000.00
 // fpass =  7333.33
